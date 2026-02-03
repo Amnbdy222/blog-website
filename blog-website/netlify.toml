@@ -1,6 +1,7 @@
 # Netlify Configuration for Next.js
 
 [build]
+  base = "blog-website"
   command = "npm run build"
   publish = ".next"
 
